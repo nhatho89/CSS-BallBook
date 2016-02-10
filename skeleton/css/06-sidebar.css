@@ -1,0 +1,39 @@
+/* PHASE 6: Sidebar */
+
+.profile-picture {
+  display: block;
+  top: -98px;
+  width: 200px;
+  border: 2px solid black;
+  position: relative;
+  height: 200px;
+  margin: 0 auto;
+  -webkit-box-shadow: 14px 14px 40px -4px rgba(5,16,237,0.63);
+  -moz-box-shadow: 14px 14px 40px -4px rgba(5,16,237,0.63);
+  box-shadow: 14px 14px 40px -4px rgba(5,16,237,0.63);
+}
+
+.profile-info{
+  display: block;
+  position: relative;
+  /*margin: 0 auto;*/
+  /*top: 10px;*/
+}
+
+.profile-info > h1{
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  top: -50px;
+  text-shadow: 1px 1px 10px grey;
+  text-decoration: underline;
+}
+
+.profile-info > p{
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  top: -30px;
+}

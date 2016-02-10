@@ -1,0 +1,44 @@
+/* PHASE 1: Header */
+body {
+  /*TODO: HOW FONT WEIGHT*/
+  font-family: roboto;
+  background: rgb(210, 210, 210);
+}
+
+.header {
+  background: red;
+
+}
+
+.header-nav {
+  color: white;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.header-logo{
+  font-weight: 900;
+  font-size: 16px;
+  display: inline;
+  float: left;
+  padding: 10px 20px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.header-list{
+  font-weight: 900;
+  font-size:16px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  padding: 10px 20px;
+
+}
+
+.header-list li{
+  padding: 10px 20px;
+  display: inline;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
